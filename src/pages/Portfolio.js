@@ -2,7 +2,8 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div>
+    <div className='protfolios'>
+      <h1> My Projects</h1>
       
     </div>
   )
