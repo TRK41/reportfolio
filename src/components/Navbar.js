@@ -7,7 +7,7 @@ function Navbar() {
     const [expandNavbar,setExpandNavbar] = useState(false);
     return (
         <div className='navbar' id={expandNavbar ? "open":"close"}>
-
+            
             <div className='toggleButton'>
                 <button onClick={() => {setExpandNavbar((prev) => !prev);
                 }}>
@@ -15,6 +15,7 @@ function Navbar() {
                 </button>
             </div>
             <div className='links'>
+            <div className='name'><h2>TRK</h2></div>
             <Link to="/"> Home</Link>
             <Link to="/aboutme"> About Me</Link>
             <Link to="/portfolio"> Portfolio</Link>
