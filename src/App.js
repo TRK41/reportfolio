@@ -6,11 +6,14 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/aboutme" element={<AboutMe/>}/>
@@ -18,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/resume" element={<Resume/>}/>
       </Routes>
+      <Footer/>
     </Router>
       
     </div>
