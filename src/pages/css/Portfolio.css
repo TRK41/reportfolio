@@ -1,0 +1,38 @@
+.portfolios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolioList{
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.projects{
+    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+    margin: 40px;
+    text-align: center;
+}
+
+.projects .bgImage{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects h1 {
+    font-size: 25px;
+}

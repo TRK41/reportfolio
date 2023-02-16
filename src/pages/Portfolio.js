@@ -1,4 +1,5 @@
 import React from 'react'
+import "../pages/css/Portfolio.css"
 import Projects from '../components/Projects'
 import project1 from "../Assets/project1.jpg"
 import project2 from "../Assets/project2.jpeg"
@@ -10,7 +11,7 @@ import project7 from "../Assets/project7.png"
 
 function Portfolio() {
   return (
-    <div className='protfolios'>
+    <div className='portfolios'>
       <h1> My Projects</h1>
       <div className="portfolioList">
       <Projects name="Horiseon Css layout" image={project1}/>
