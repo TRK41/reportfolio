@@ -1,0 +1,17 @@
+.App{
+    background-color:#CF5C36
+}
+
+.AboutMe{
+    width: 100%;
+    
+    font-size: 30px;
+    background-color:#CF5C36 ;
+}
+
+.text{
+    text-align:center;
+    width:100%;
+    align-items: end;
+    flex-direction: column;
+}

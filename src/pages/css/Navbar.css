@@ -46,9 +46,10 @@
   font-size: 30px;
   color:#CF5C36 ;
   display: flex;
-  
-  
-  
+}
+
+.link{
+  font-size: 30px;
 }
 
 #open {
