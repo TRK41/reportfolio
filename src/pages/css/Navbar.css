@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: end;
     color:#DEE5E5 ;
+    position:static;
     
 }
 
@@ -45,6 +46,8 @@
   font-size: 30px;
   color:#CF5C36 ;
   display: flex;
+  
+  
   
 }
 

@@ -14,8 +14,8 @@ function Navbar() {
                     <ReorderIcon/>
                 </button>
             </div>
+            
             <div className='links'>
-            <div className='name'><h2>TRK</h2></div>
             <Link to="/"> Home</Link>
             <Link to="/aboutme"> About Me</Link>
             <Link to="/portfolio"> Portfolio</Link>

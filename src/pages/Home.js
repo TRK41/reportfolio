@@ -12,7 +12,7 @@ function Home() {
             Welcome to my portfolio  I am a Full Stack Developer!
         </p>
       </div>
-      <div className="projects"></div>
+     
     </div>
     </div>
   )

@@ -6,7 +6,6 @@ import "../pages/css/Header.css"
 function Header() {
   return (
     <div className='header'>
-      
       <Navbar/>
     </div>
   )
