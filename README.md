@@ -8,7 +8,7 @@
 
   ## Table of Contents
   -[Installation](#installation)
-  -[Heroku](#Heroku)
+  -[GitHub](#GitHub)
   -[License](#license)
   -[Questions](#questions)
 
@@ -16,8 +16,8 @@
   What are the steps required to install your project?
   npm i
 
-  ## Heroku
-  https://noteta.herokuapp.com
+  ## GitHub
+  
   ## License
   MIT
 
