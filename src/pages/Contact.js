@@ -1,6 +1,6 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
-import { Card, CardContent, Grid } from '@mui/material';
+import { Button, Card, CardContent, Grid } from '@mui/material';
 import "../pages/css/Contact.css"
 
 function Contact() {
@@ -19,6 +19,9 @@ function Contact() {
       </Grid>
       <Grid xs={12} item>
         <TextField label = "Type your message here" multiline rows={8} placeholder='Message' variant='outlined' fullWidth required/>
+      </Grid>
+      <Grid xs={12} item>
+        <Button className='button' type='submit' variant='contained' > submit</Button>
       </Grid>
       </Grid>
     </form>
