@@ -10,7 +10,7 @@ function Footer() {
     <div className='footer'>
       <div className='icons'>
         <GitHub/>
-        <LinkedIn onClick= {event}/>
+        <LinkedIn/>
       </div>
       <p> &copy; 2023 TRK41 Portfolio</p>
     </div>
