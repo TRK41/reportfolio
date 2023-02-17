@@ -7,6 +7,9 @@ import project3 from "../Assets/project3.png"
 import project4 from "../Assets/project4.png"
 import project5 from "../Assets/project5.png"
 import project6 from "../Assets/project6.png"
+import { Link } from '@mui/material/'
+
+
 // import project7 from "../Assets/project7.png"
 
 function Portfolio() {
@@ -14,7 +17,10 @@ function Portfolio() {
     <div className='portfolios'>
       <h1> My Projects</h1>
       <div className="portfolioList">
-      <Projects name="Horiseon Css layout" image={project1} link= 'https://trk41.github.io/Horiseon-accessibility-project/' ></Projects>
+      <Projects name="Horiseon Css layout" image={project1} 
+      link= {<Link href = "https://trk41.github.io/Horiseon-accessibility-project/"> Link</Link>}   
+      github={<Link href = 'https://github.com/TRK41/Horiseon-accessibility-project'> GitHub</Link>}>
+      </Projects>
       <Projects name="Html portfolio" image={project2}></Projects> 
       <Projects name="Password Generator" image={project3}></Projects>
       <Projects name="Agenda" image={project4}></Projects> 
