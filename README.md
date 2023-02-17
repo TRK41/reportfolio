@@ -4,20 +4,21 @@
   
   
   ## Description
-  This application is a Note taker. It allows you to take a quick note for now  and save it for later .There is also the option of deleting old notes as well.
+  Portfolio of the work I have down during the bootcamp running on React.js
 
   ## Table of Contents
   -[Installation](#installation)
-  -[GitHub](#GitHub)
+  -[Website](#website)
   -[License](#license)
   -[Questions](#questions)
 
   ## Installation
   What are the steps required to install your project?
   npm i
+  npm start
 
-  ## GitHub
-  
+  ## Website
+  https://trk41.github.io/reportfolio
   ## License
   MIT
 
