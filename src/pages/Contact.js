@@ -2,6 +2,7 @@ import React from 'react'
 import TextField from '@mui/material/TextField';
 import { Button, Card, CardContent, Grid } from '@mui/material';
 import "../pages/css/Contact.css"
+import FormHelperText from '@mui/material/FormHelperText';
 
 function Contact() {
   return (
@@ -19,6 +20,7 @@ function Contact() {
       </Grid>
       <Grid xs={12} item>
         <TextField label = "Type your message here" multiline rows={8} placeholder='Message' variant='outlined' fullWidth required/>
+        <FormHelperText className='helper' id="my-helper-text">*Message is required</FormHelperText>
       </Grid>
       <Grid xs={12} item>
         <Button className='button' type='submit' variant='contained' > submit</Button>
