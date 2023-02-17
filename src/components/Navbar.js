@@ -16,11 +16,11 @@ function Navbar() {
             </div>
             
             <div className='links'>
-            <Link to="/"> Home</Link>
-            <Link to="/aboutme"> About Me</Link>
-            <Link to="/portfolio"> Portfolio</Link>
-            <Link to="/contact"> Contact</Link>
-            <Link to="/resume"> Resume</Link>
+            <Link to="/reportfolio"> Home</Link>
+            <Link to="/reportfolio/aboutme"> About Me</Link>
+            <Link to="/reportfolio/portfolio"> Portfolio</Link>
+            <Link to="/reportfolio/contact"> Contact</Link>
+            <Link to="/reportfolio/resume"> Resume</Link>
             </div>
         </div>
     )
